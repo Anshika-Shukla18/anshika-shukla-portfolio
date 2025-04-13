@@ -1,5 +1,4 @@
-
-import { Briefcase, GraduationCap, Award } from 'lucide-react';
+import { GraduationCap } from 'lucide-react';
 
 const About = () => {
   return (
@@ -22,7 +21,7 @@ const About = () => {
           </div>
           
           <div className="md:w-1/2">
-            <h3 className="text-2xl font-bold mb-4">Education & Experience</h3>
+            <h3 className="text-2xl font-bold mb-4">Education</h3>
             
             <div className="space-y-6">
               <div className="flex gap-4">
@@ -33,28 +32,6 @@ const About = () => {
                   <h4 className="font-semibold text-lg">B.Tech in Computer Science</h4>
                   <p className="text-gray-600">SRM Institute of Science and Technology</p>
                   <p className="text-gray-500 text-sm">2020 - 2024</p>
-                </div>
-              </div>
-              
-              <div className="flex gap-4">
-                <div className="flex-shrink-0 p-2 bg-primary bg-opacity-10 rounded-lg h-min">
-                  <Briefcase className="text-primary" size={24} />
-                </div>
-                <div>
-                  <h4 className="font-semibold text-lg">Software Development Intern</h4>
-                  <p className="text-gray-600">Tech Innovations Inc.</p>
-                  <p className="text-gray-500 text-sm">May 2023 - Aug 2023</p>
-                </div>
-              </div>
-              
-              <div className="flex gap-4">
-                <div className="flex-shrink-0 p-2 bg-primary bg-opacity-10 rounded-lg h-min">
-                  <Award className="text-primary" size={24} />
-                </div>
-                <div>
-                  <h4 className="font-semibold text-lg">Hackathon Winner</h4>
-                  <p className="text-gray-600">National Coding Challenge</p>
-                  <p className="text-gray-500 text-sm">2022</p>
                 </div>
               </div>
             </div>
