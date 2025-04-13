@@ -1,4 +1,5 @@
-import { GraduationCap } from 'lucide-react';
+
+import { GraduationCap, Code } from 'lucide-react';
 
 const About = () => {
   return (
@@ -32,6 +33,24 @@ const About = () => {
                   <h4 className="font-semibold text-lg">B.Tech in Computer Science</h4>
                   <p className="text-gray-600">SRM Institute of Science and Technology</p>
                   <p className="text-gray-500 text-sm">2020 - 2024</p>
+                </div>
+              </div>
+              
+              <div className="flex gap-4">
+                <div className="flex-shrink-0 p-2 bg-primary bg-opacity-10 rounded-lg h-min">
+                  <Code className="text-primary" size={24} />
+                </div>
+                <div>
+                  <h4 className="font-semibold text-lg">Frontend Development</h4>
+                  <p className="text-gray-600">
+                    I'm passionate about creating intuitive and responsive user interfaces using modern web technologies. My expertise includes:
+                  </p>
+                  <ul className="text-gray-600 list-disc list-inside mt-2">
+                    <li>Building reactive applications with React and TypeScript</li>
+                    <li>Creating responsive layouts with Tailwind CSS</li>
+                    <li>Implementing clean component architecture and state management</li>
+                    <li>Optimizing web performance and accessibility</li>
+                  </ul>
                 </div>
               </div>
             </div>
